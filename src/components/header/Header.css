@@ -1,0 +1,61 @@
+header {
+    width: 100vw;
+    padding: 45px;
+}
+
+.menu img {
+    width: 170px;
+    animation: menuImg 2s;
+}
+
+@keyframes menuImg {
+
+    from {
+        transform: rotateX(90deg);
+    }
+
+    to {
+        transform: rotateX(0deg);
+    }
+}
+
+.menu {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px;
+}
+
+.menu a {
+    text-decoration: none;
+    color: rgb(39, 38, 38);
+    padding: 8px;
+}
+
+.menu>.rightMenu {
+    margin-left: 20px;
+}
+
+.rightMenu>a {
+    width: 15px;
+    margin-left: 3px;
+}
+
+
+.rightMenu>a:hover {
+    color: rgb(185, 48, 71);
+}
+
+@media screen and (max-width: 768px) {
+
+    .menu img {
+        width: 100px;
+    }
+
+    .rightMenu a {
+        position: relative;
+        font-size: 13px;
+        color: rgb(185, 48, 71);
+    }
+
+}

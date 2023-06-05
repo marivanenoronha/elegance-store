@@ -1,0 +1,47 @@
+footer {
+    width: 100vw;
+    padding: 55px;
+}
+
+.sociais {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+
+.social {
+    padding: 10px;
+    font-size: 23px;
+    cursor: pointer;
+}
+
+.social:hover {
+    color: rgb(185, 48, 71);
+    transform: scale(1.2);
+}
+
+.store {
+    text-align: center;
+    font-weight: bold;
+    font-size: 10px;
+    cursor: pointer;
+}
+
+.store:hover {
+    color: rgb(185, 48, 71);
+    transform: scale(1.1);
+}
+
+@media screen and (max-width: 768px) {
+    .social {
+        font-size: 15px;
+        color: rgb(185, 48, 71);
+    }
+
+    .store {
+        font-size: 8px;
+        color: rgb(185, 48, 71);
+    }
+
+
+}

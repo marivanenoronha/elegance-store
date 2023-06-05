@@ -1,0 +1,41 @@
+{
+    "products": [
+        
+        {
+            "id": 1,
+            "name": "Calça jeans",
+            "description": "Calça femenina jogger Cos Elástico",
+            "price": "R$ 89,90",
+            "path": "./img/pants-jeans.jpg"
+        },
+        {
+            "id": 2,
+            "name": "Conjunto glamour",
+            "description": "Conjunto floral femenino shorts cintura alta",
+            "price": "R$ 99,90",
+            "path": "./img/glamour-set.jpg"
+        },
+        {
+            "id": 3,
+            "name": "Vestido princesa",
+            "description": "vestido rodado Belissímos e inspiradores",
+            "price": "R$ 149,90",
+            "path": "/img/princess-dress.jpg"
+        },
+        {
+            "id": 4,
+            "name": "Body gola",
+            "description": "Body frente única com gola",
+            "price": "R$ 89,90",
+            "path": "./img/body-collar.jpg"
+        },
+        {
+            "id": 5,
+            "name": "Saia jeans",
+            "description": "Saia jeans com ziper desfiada",
+            "price": "R$ 99,90",
+            "path": "./img/skirt-jeans.jpg"
+        }
+        
+    ]
+}
